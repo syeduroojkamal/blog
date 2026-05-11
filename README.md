@@ -15,7 +15,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@0.14.0 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:none" sveltekit-adapter="adapter:vercel" --install pnpm ./
+pnpm dlx sv@0.15.3 create --template minimal --no-types --add tailwindcss="plugins:none" sveltekit-adapter="adapter:vercel" --install pnpm ./
 ```
 
 ## Developing
