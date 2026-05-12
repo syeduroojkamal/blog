@@ -10,6 +10,10 @@
                     name="1857 Revolt"
                     href="/projects/gk/history/modern/1857-revolt"
                 />
+                <TR
+                    name="Indian National Congress"
+                    href="/projects/gk/history/modern/inc"
+                />
             </tbody>
         </table>
     </div>

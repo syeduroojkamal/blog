@@ -1,5 +1,5 @@
 <script>
-    import MD from "./1857-revolt.md";
+    import MD from "./inc.md";
 </script>
 
 <div class="max-w-5xl mx-auto p-8">
