@@ -1,0 +1,14 @@
+# Anki - by far the most effective way to revise
+-   My brother introduced me to Anki, saying it's the absolute best for studying medical stuff. He even stopped buying books because of it.    
+-   I gave Anki a shot as an experiment, and if you use it right, it makes remembering information seamless.    
+-   I started with Anki to remember things I kept forgetting in mock tests, using it just like regular flashcards.   
+-   But then I started spending too much time trying to make flashcards of everything in an unorganized manner, which felt like a waste of time and not a great way to learn.    
+-   So, I switched to importing past year questions (PYQs) instead of making my own cards to save time.    
+-   But, that didn't work out well either! I realized I was just guessing based on clues or options, meaning I couldn't answer the question if it was phrased differently.    
+-   My brother told me to watch some YouTube videos on how to actually use Anki to remember things.    
+-   Now my recipe to make flashcards is quite mature:    
+-   bullet points for context,    
+-   bolding the really important things,    
+-   and underlining things for active recall.    
+-   If I can remember everything underlined, I hit "good"; if not, I hit "again".    
+-   This makes grading my cards objective and not dependent on my mood.
