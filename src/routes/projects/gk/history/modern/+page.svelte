@@ -1,5 +1,5 @@
 <script>
-    import TR from "../components/TR.svelte";
+    import TR from "../../../../../components/TR.svelte";
 </script>
 
 <div class="p-4 max-w-4xl mx-auto">
@@ -7,9 +7,8 @@
         <table class="w-full">
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
-                    date="11 May 2026"
-                    name="Blog Hello World"
-                    href="/blog/hello-world"
+                    name="1857 Revolt"
+                    href="/projects/gk/history/modern/1857-revolt"
                 />
             </tbody>
         </table>

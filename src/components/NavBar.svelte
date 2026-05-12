@@ -1,5 +1,9 @@
-<div class="border p-2 flex justify-end gap-1">
-    <a href="/" class="border mr-auto">Home</a>
-    <a href="/projects" class="border">Projects</a>
-    <a href="/about" class="border">About</a>
-</div>
+<script>
+    import A from "./A.svelte";
+</script>
+
+<nav class="shadow-md p-2 flex justify-end gap-1">
+    <A name="Home" href="/" class="mr-auto" />
+    <A name="Projects" href="/projects" />
+    <A name="About" href="/about" />
+</nav>
