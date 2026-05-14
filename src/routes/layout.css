@@ -1,10 +1,9 @@
 @import "tailwindcss";
 
-/* Base text styles */
 .markdown-content {
     line-height: 1.6;
-    max-width: 100ch; /* Optimal reading width */
-    margin: 0 auto; /* Center the content */
+    max-width: 100ch;
+    margin: 0 auto;
 }
 
 .markdown-content h1 {
@@ -19,7 +18,6 @@
     font-size: 1.4rem;
 }
 
-/* Paragraphs and Lists */
 .markdown-content p {
     margin-bottom: 1.15rem;
 }
@@ -40,7 +38,6 @@
     margin-bottom: 0.25rem;
 }
 
-/* Code blocks and inline code */
 .markdown-content code {
     background-color: #f4f4f5;
     padding: 0.2em 0.4em;
@@ -63,7 +60,6 @@
     padding: 0;
 }
 
-/* Blockquotes */
 .markdown-content blockquote {
     border-left: 4px solid #d4d4d8;
     margin: 0;
@@ -72,30 +68,22 @@
     font-style: italic;
 }
 
-/* Table Grid Styles */
 .markdown-content table {
     width: 100%;
-    border-collapse: collapse; /* Merges double borders into single crisp lines */
+    border-collapse: collapse;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-/* This applies the actual grid lines to every cell */
 .markdown-content th,
 .markdown-content td {
-    border: 1px solid #52525b; /* A solid grey border for the grid */
+    border: 1px solid #52525b;
     padding: 0.75rem 1rem;
     text-align: left;
 }
 
-/* Makes the header row stand out */
 .markdown-content th {
-    background-color: rgba(
-        0,
-        0,
-        0,
-        0.05
-    ); /* Adds a subtle tint to the header */
+    background-color: rgba(0, 0, 0, 0.05);
     font-weight: bold;
     color: #111;
 }
