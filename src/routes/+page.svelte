@@ -7,6 +7,11 @@
         <table class="w-full">
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
+                    date="14 May 2026"
+                    name="How to trace normal raster images to SVG using Figma"
+                    href="/blog/figma-for-svg"
+                />
+                <TR
                     date="12 May 2026"
                     name="Anki - by far the most effective way to revise"
                     href="/blog/anki"
