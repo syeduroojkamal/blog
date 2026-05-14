@@ -8,7 +8,7 @@
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
                     date="14 May 2026"
-                    name="Rajasthan"
+                    name="Rajasthan Map SVG"
                     href="/projects/handmade-svg/rajasthan"
                 />
             </tbody>
