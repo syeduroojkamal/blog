@@ -7,6 +7,11 @@
         <table class="w-full">
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
+                    date="15 May 2026"
+                    name="My Calculation Ritual"
+                    href="/blog/calculation-ritual"
+                />
+                <TR
                     date="14 May 2026"
                     name="How to trace normal raster images to SVG using Figma"
                     href="/blog/figma-for-svg"
