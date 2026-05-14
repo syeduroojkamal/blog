@@ -8,3 +8,4 @@
 - Scroll down in the right-hand menu, and look for "Export"
 - Select SVG from the dropdown menu
 - Click "Export"
+- Here is an example:
