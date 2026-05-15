@@ -1,76 +1,46 @@
 <script>
-    import { onMount } from "svelte";
+    let start = $state(false);
+    let n = $state();
+    let rand = $state(5);
+    let action = $state(true);
+    let actionBtn;
 
-    // In Svelte 5, we use the $state rune to declare reactive variables.
-    // When these change, the UI automatically updates.
-    let showingAnswer = $state(false);
-    let currentNum1 = $state(0);
-    let currentNum2 = $state(0);
-
-    function generateProblem() {
-        // Generate num1 between 12 and 30
-        currentNum1 = Math.floor(Math.random() * (30 - 12 + 1)) + 12;
-        // Generate num2 between 2 and 9
-        currentNum2 = Math.floor(Math.random() * (9 - 2 + 1)) + 2;
-        showingAnswer = false;
-    }
-
-    function handleInteraction() {
-        if (!showingAnswer) {
-            showingAnswer = true;
-        } else {
-            generateProblem();
+    function handleAction() {
+        if (!n) return;
+        start = true;
+        if (action) {
+            let temp = rand;
+            rand = Math.floor(Math.random() * 8) + 2;
+            while (temp === rand) {
+                rand = Math.floor(Math.random() * 8) + 2;
+            }
         }
+        action = !action;
     }
-
-    function handleKeydown(event) {
-        if (event.code === "Space") {
-            event.preventDefault(); // Prevents page from scrolling down
-            handleInteraction();
-        }
-    }
-
-    function handlePointerdown(event) {
-        event.preventDefault();
-        handleInteraction();
-    }
-
-    // Initialize the first problem when the component mounts to the DOM
-    onMount(() => {
-        generateProblem();
-    });
 </script>
 
-<!-- Global event listener for the spacebar -->
-<svelte:window onkeydown={handleKeydown} />
-
-<!--
-  Main Wrapper
-  Uses Tailwind for full screen height, centering, background, and typography
--->
-<div
-    role="button"
-    tabindex="0"
-    class="flex min-h-screen flex-col items-center justify-center bg-gray-800 text-white font-sans select-none cursor-pointer overflow-hidden m-0"
-    onpointerdown={handlePointerdown}
->
-    <div class="text-center">
-        <!-- Equation Display -->
-        <div class="text-6xl md:text-8xl font-bold m-0 drop-shadow-lg">
-            {currentNum1} &times; {currentNum2} = {showingAnswer
-                ? currentNum1 * currentNum2
-                : "?"}
-        </div>
-
-        <!-- Instructional Text -->
-        <div
-            class="mt-8 text-xl md:text-2xl text-gray-400 bg-black/20 px-5 py-2.5 rounded-lg opacity-80 inline-block"
-        >
-            {#if showingAnswer}
-                Press SPACE (or click) for next
-            {:else}
-                Press SPACE (or click) for answer
-            {/if}
-        </div>
+<div class="text-4xl flex flex-col items-center mt-10 gap-5">
+    <div class="rounded flex flex-col items-center">
+        {#if !start}
+            <input
+                type="number"
+                placeholder="Table"
+                class="text-center"
+                bind:value={n}
+                onkeydown={(e) => {
+                    if (e.key === "Enter") {
+                        handleAction();
+                        actionBtn && actionBtn.focus();
+                    }
+                }}
+            />
+        {:else}
+            <p class="">{n} x {rand} = {action ? n * rand : "?"}</p>
+        {/if}
     </div>
+    <button
+        class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md shadow-md"
+        bind:this={actionBtn}
+        onclick={handleAction}>Action</button
+    >
 </div>
