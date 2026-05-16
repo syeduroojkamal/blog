@@ -1,0 +1,9 @@
+# Outlook on Life
+- I think life starts getting better when we stop thinking only about survival and start thinking about thriving.
+- When survival becomes the center of life, every day turns into a checklist. We wake up thinking about tasks, responsibilities, deadlines, and problems to solve. Tasks can help us stay organized, but they are rarely the thing that gives life meaning or peace. Somewhere along the way, we start treating life itself like a series of boxes to tick off.
+- That mindset slowly drains us.
+- Lately, I’ve been thinking more about abundance — not abundance in the sense of wealth alone, but abundance as a way of living. A belief that life is not merely something to endure, but something spacious enough to enjoy, reflect on, and experience deeply.
+- This is probably why minimalism feels connected to that mindset for me. Minimalism is often misunderstood as deprivation, but maybe it is actually about removing excess so we can notice what already exists in abundance: time, clarity, attention, relationships, silence, thought.
+- I’ve also become interested in stoicism, though I don’t fully understand it yet. What attracts me to it is the idea that peace may come less from controlling the world and more from controlling our response to it. I still need to explore that further.
+- And then there is the question of purpose. For a long time, the question was: “What is my purpose in life?” But now I wonder if the better question is: “Should I even be searching for a singular purpose?” Maybe purpose is not one grand discovery waiting somewhere in the future. Maybe it is something quieter that emerges from the way we live each day.
+- I don’t have complete answers yet. But I think a meaningful life may begin when we stop reducing existence to survival and productivity, and start learning how to live with presence, clarity, and enoughness.

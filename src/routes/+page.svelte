@@ -7,6 +7,11 @@
         <table class="w-full">
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
+                    date="16 May 2026"
+                    name="Outlook on Life"
+                    href="/blog/outlook-on-life"
+                />
+                <TR
                     date="15 May 2026"
                     name="My Calculation Ritual"
                     href="/blog/calculation-ritual"
