@@ -249,6 +249,8 @@
             </div>
         </div>
     {:else}
-        <p class="text-4xl">{current}² = {action ? current * current : "?"}</p>
+        <p class="text-4xl">
+            {current}³ = {action ? current * current * current : "?"}
+        </p>
     {/if}
 </div>
