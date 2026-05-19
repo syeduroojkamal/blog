@@ -7,14 +7,9 @@
         <table class="w-full">
             <tbody class="divide-y divide-slate-200 text-sm">
                 <TR
-                    date="15 May 2026"
+                    date="19 May 2026"
                     name="Calculation Practice Tool"
                     href="/projects/calculation-practice"
-                />
-                <TR
-                    date="15 May 2026"
-                    name="Table Practice Tool"
-                    href="/projects/table-practice-tool"
                 />
                 <TR
                     date="14 May 2026"

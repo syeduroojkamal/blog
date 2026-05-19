@@ -16,7 +16,7 @@
                 document.querySelectorAll('input[type="checkbox"]:checked'),
             );
             n = checked.map((cb) => parseInt(cb.id));
-            if (!n.length) return;
+            if (n.length <= 1) return;
         }
         start = true;
         if (action) {
@@ -30,11 +30,6 @@
 </script>
 
 <div class=" flex flex-col items-center mt-10 gap-5">
-    <button
-        class="text-4xl px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md shadow-md"
-        bind:this={actionBtn}
-        onclick={handleAction}>Action</button
-    >
     {#if !start}
         <div class="flex flex-wrap gap-5">
             <div>
@@ -251,4 +246,9 @@
     {:else}
         <p class="text-4xl">{current}² = {action ? current * current : "?"}</p>
     {/if}
+    <button
+        class="text-4xl px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md shadow-md"
+        bind:this={actionBtn}
+        onclick={handleAction}>Action</button
+    >
 </div>
